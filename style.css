@@ -1,13 +1,19 @@
-.container { 
-    display:flex;
+    body { 
+        background-color: #00695C;
+    }
+    
+    .image-container {
+    display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-img {
-    height: auto;
-    width: 300px;
+  }
+  
+  .photo-container img {
+    margin: 10px;
   }
 
+  img {
+    height: auto;
+    width: 200px;
+  }
