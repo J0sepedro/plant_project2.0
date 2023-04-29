@@ -3,18 +3,38 @@
     <head>
         <meta charset="UTF-8">
         <title>Home</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style.css"><!--Add your CSS link in head like so-->
     </head>
-
+    <!--found this method of removing bullet holes on my UL's/OL's - not sure if its entirely professional to do so but I will continue until better methods are learned -->
+    <style>
+        ul {
+            list-style-type: none;
+        }
+    </style>
+<!--okay so essentially this specific page is simply to present a very minimal but "make it look like you did it like that on purpose" sort of look. I am experimenting with the CSS from CSS Foundations but the next three courses seem very promising for more complicated CSS stuff-->
     <body>
-        
-        <div class="title">
+        <!--do I really need to use spaces like this between my div, h1, h6, hr, img, div?-->
+        <div class="welcome">
+
             <h1>My Plant Collection</h1>
+           
+            <h6>Welcome to my Plant Collection page, this is where I will continue to use HTML and now CSS 😉</h6>
+
+            <hr>
+            <!-- I realize there may be better ways to work with images and their proportions, this seems acceptable for the time being-->
+            <img src="photos/home.png" alt="Picture of houseplants I found on Google Images" height="auto" width="650">
+            <!--how do I get rid of the bullet holes next to my links? -->
+            <ul>
+                <li><a href="plants_i_want.html">Plants I Want</a></li>
+                <li><a href="plants_i_have.html">Plants I Have</a></li>
+                <li><a href="plant_plan_future.html">Plants & My Future</a></li>
+            </ul>
+
+            <hr>
+             
         </div>
 
-        <div class="welcome">
-            <p>Welcome to my Plant Collection page, this is where I will use HTML and now CSS</p>
-        </div>
+
 
         
 

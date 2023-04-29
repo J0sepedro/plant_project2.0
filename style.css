@@ -1,11 +1,19 @@
 body {
-    background-color: #00838F;
+    background-color: beige;
+    font-size: 30px;
+    
+}
+/* class selector for homepage */
+.welcome {
+    text-align: center;
 }
 
-.title {
-    color: white;
+.i_have {
+    text-align: center;
 }
 
-font { 
-    white-space: ;
+.tldr {
+    text-align: center;
 }
+
+
