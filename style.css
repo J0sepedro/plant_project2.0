@@ -1,19 +1,25 @@
 body {
     background-color: beige;
-    font-size: 30px;
     
 }
 /* class selector for homepage */
 .welcome {
     text-align: center;
+    font-size: 25px
 }
 
 .i_have {
     text-align: center;
+    font-size: 25px;
 }
 
 .tldr {
     text-align: center;
+    font-size: 25px;
 }
 
+.future {
+    text-align: center;
+    font-size: 25px;
+}
 
